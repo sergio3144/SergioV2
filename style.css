@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body {
+    font-family: 'Quicksand', sans-serif;
+}
 .header-principal {
     width: 100%;
     height: 400px;
@@ -13,7 +15,6 @@
     background-size: cover;
     object-fit: cover;
     text-align: center;
-    font-family: 'Mali', cursive;
 }
 .profile {
     border: 2px solid rgb(74, 74, 74);
@@ -21,19 +22,24 @@
     border-radius: 100%;
     margin-top: 20px;
 }
-.title {
+.title{
     color: white;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 35px;
     margin-top: 30px;
     letter-spacing: 5px;
     filter: drop-shadow(2px 2px 2px rgb(221, 129, 254));
 }
 .sub-title {
     color: rgb(219, 219, 219);
-    font-weight: bold;
-    font-size: 30px;
+    font-weight: 700;
+    font-size: 25px;
     margin-top: 30px;
     letter-spacing: 5px;
-    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0))
+    filter: drop-shadow(2px 2px 2px rgb(255, 0, 0));
+}
+@media(max-width: 750px){
+    .title{
+        font-size: 19px;
+    }
 }
