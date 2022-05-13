@@ -95,7 +95,7 @@ body {
     margin: 50px 0 20px 0;
 }
 .img-skill {
-    width: 100px;
+    width: 70px;
 }
 .skills, div {
     margin: 30px;
@@ -103,6 +103,7 @@ body {
 .skills, h2 {
     color: white;
     font-weight: bold;
+    font-size: 13px;
 }
 @media(max-width: 900px) {
     .img-skill {
