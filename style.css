@@ -92,7 +92,8 @@ body {
     text-align: center;
 }
 .skills, h1 {
-    margin: 50px 0 20px 0;
+    font-size: 32px;
+    margin-top: 30px;
 }
 .img-skill {
     width: 70px;
@@ -114,3 +115,36 @@ body {
     }
 }
 
+/* Proyects */
+.personal-proyects {
+    background-color: #291d2b;
+    width: 100%;
+    height: 500px;
+}
+.title-3 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.proyectos {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.item-img {
+    width: 200px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 450ms all;
+    object-fit: cover;
+}
+.item-img:hover {
+    transform: scale(1.8);
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid black;
+}
