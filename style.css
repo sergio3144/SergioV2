@@ -116,35 +116,88 @@ body {
 }
 
 /* Proyects */
-.personal-proyects {
-    background-color: #291d2b;
-    width: 100%;
-    height: 500px;
-}
-.title-3 {
-    text-align: center;
-    font-size: 35px;
-    color: white;
-}
-.proyectos {
+.proyects {
     display: flex;
-    margin-top: 50px;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    margin-top: 50px;
+    flex-wrap: wrap;
+    background-color: #291d2b;
 }
-.item-img {
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btnCode {
     width: 200px;
-    padding: 10px;
-    border-radius: 15px;
-    transition: 450ms all;
-    object-fit: cover;
+    height: 35px;
+    background-color:#5f4e62;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
 }
-.item-img:hover {
-    transform: scale(1.8);
-    margin: 0 auto;
-    padding: 0;
-    border: 1px solid black;
+.btnWeb {
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.i-one {
+    border-radius: 20px;
+    background-color: black;
+}
+.proyectOne, img {
+    width: 200px;
+    border-radius: 10px;
+}
+.proyectTwo, img {
+    width: 200px;
+}
+.proyectThree, img {
+    width: 200px;
+}
+.proyectFour, img {
+    width: 200px;
+}
+.proyectFive, img {
+    width: 200px;
+}
+.proyectSix, img {
+    width: 200px;
+}
+.i-two {
+    border-radius: 20px;
+    background-color: black;
+}
+.i-three {
+    border-radius: 20px;
+    background-color: black;
+}
+.i-four {
+    border-radius: 20px;
+    background-color: black;
+}
+.i-five {
+    border-radius: 20px;
+    background-color: black;
+}
+.i-six {
+    border-radius: 20px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contacto */
+#contact {
+    margin-top: -31px;
+    display: flex;
+    text-align: center;
+}
+.logoDiv, .imagen-logo {
+    width: 100px;
 }
