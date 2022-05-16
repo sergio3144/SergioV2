@@ -196,8 +196,17 @@ a {
 #contact {
     margin-top: -31px;
     display: flex;
-    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .logoDiv, .imagen-logo {
-    width: 100px;
+    width: 50px;
+    cursor: pointer;
+}
+.logoDiv, .text-logo {
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: bold;
 }
