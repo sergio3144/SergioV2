@@ -153,6 +153,7 @@ a:hover {
 .i-one {
     border-radius: 20px;
     background-color: black;
+    border: 2px solid rgb(63, 63, 63);
 }
 .proyectOne, img {
     width: 200px;
@@ -176,24 +177,30 @@ a:hover {
 .i-two {
     border-radius: 20px;
     background-color: black;
+    border: 2px solid rgb(63, 63, 63);
+    box-shadow: 0px,0px,50px,0px rgba(0,0,0.5)
 }
 .i-three {
     border-radius: 20px;
     background-color: black;
+    border: 2px solid rgb(63, 63, 63);
 }
 .i-four {
     border-radius: 20px;
     background-color: black;
+    border: 2px solid rgb(63, 63, 63);
 }
 .i-five {
     border-radius: 20px;
     background-color: black;
+    border: 2px solid rgb(63, 63, 63);
 }
 .i-six {
     border-radius: 20px;
     background-color: black;
     justify-content: center;
     align-items: center;
+    border: 2px solid rgb(63, 63, 63);
 }
 
 /* Contacto */
