@@ -52,7 +52,7 @@ body {
     margin-top: 35px;
     flex-wrap: wrap;
 }
-.hobbies, .title-hobbies {filter: drop-shadow(2px 2px 2px rgb(221, 129, 254));}
+.title-hobbies {filter: drop-shadow(2px 2px 2px rgb(221, 129, 254));}
 .hobbies, div{
     display: inline-block;
     text-align: center;
@@ -76,7 +76,7 @@ body {
 .sobre, p {
     margin-top: 20px;
 }
-.sobre, .title-sobre{filter: drop-shadow(2px 2px 2px rgb(221, 129, 254));}
+.title-sobre{filter: drop-shadow(2px 2px 2px rgb(221, 129, 254));}
 
 @media(max-width: 1250px) {
     
@@ -155,23 +155,23 @@ a:hover {
     background-color: black;
     border: 2px solid rgb(63, 63, 63);
 }
-.proyectOne, img {
+.proyectOne, .img-img {
     width: 200px;
     border-radius: 10px;
 }
-.proyectTwo, img {
+.proyectTwo, .img-img {
     width: 200px;
 }
-.proyectThree, img {
+.proyectThree, .img-img {
     width: 200px;
 }
-.proyectFour, img {
+.proyectFour, .img-img {
     width: 200px;
 }
-.proyectFive, img {
+.proyectFive, .img-img {
     width: 200px;
 }
-.proyectSix, img {
+.proyectSix, .img-img {
     width: 200px;
 }
 .i-two {
@@ -189,7 +189,9 @@ a:hover {
     border-radius: 20px;
     background-color: black;
     border: 2px solid rgb(63, 63, 63);
+    padding: 5px;
 }
+
 .i-five {
     border-radius: 20px;
     background-color: black;
@@ -202,7 +204,11 @@ a:hover {
     align-items: center;
     border: 2px solid rgb(63, 63, 63);
 }
-
+.parra {
+    color: black;
+    filter: white;
+    font-weight: 900;
+}
 /* Contacto */
 #contact {
     margin-top: -31px;
