@@ -58,6 +58,9 @@ body {
     text-align: center;
     margin-top: 20px;
 }
+.hobbies {
+    margin-top: 60px;
+}
 .hobbies-contain {
     text-align: center;
 }
@@ -79,10 +82,11 @@ body {
 .title-sobre{filter: drop-shadow(2px 2px 2px rgb(221, 129, 254));}
 
 @media(max-width: 1250px) {
-    
+    .hobbies {
+        margin: 0 auto;
+    }
 }
 /* SKILLS */
-
 .container-skills {
     display: flex;
     background-color: #291d2b;
